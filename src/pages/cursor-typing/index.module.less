@@ -1,0 +1,47 @@
+/*
+ * Style in CSS Modules.
+ */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  to {
+    border-color: transparent;
+  }
+}
+.main{
+  width: 390px;
+  margin: 0 auto;
+}
+
+.text {
+  width: 230px;
+  color: white;
+  overflow: hidden;
+  font-size: 18px;
+  white-space: nowrap;
+  border-right: 3px solid white;
+}
+
+.addClass {
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+.content {
+  padding: 16px 32px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  text-align: center;
+}
+
+
+.img {
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 8px;
+}

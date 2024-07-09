@@ -1,0 +1,24 @@
+/**
+ * The global.css defines the style of the entire project,
+ * ice.js will globally import this file by default.
+ */
+
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: #3178f6;
+  --bg-primary: white;
+}
+
+body {
+  margin: 0;
+  /* background: url('./assets/images/bg.png') no-repeat; */
+  /* background-position: 100%; */
+  /* background-size: cover; */
+  font-family: 'Alibaba PuHuiTi' !important;
+}

@@ -1,0 +1,38 @@
+/*
+ * Style in CSS Modules.
+ */
+ .main{
+  margin: 0 auto;
+  width: 390px;
+ }
+
+.content {
+  padding: 16px 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .item {
+    line-height: 100px;
+    background-color: white;
+    flex: 1;
+    height: 100px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  .item:hover {
+    flex: 3;
+  }
+
+  .item:nth-child(odd) {
+    background: linear-gradient(150deg, #ca7879, #7611a6, #1c0056);
+    color: white
+  }
+
+}
+.img {
+  width: 70%;
+  margin-top: 16px;
+  border-radius: 8px;
+}

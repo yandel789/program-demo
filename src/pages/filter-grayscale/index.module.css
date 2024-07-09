@@ -1,0 +1,30 @@
+/*
+ * Style in CSS Modules.
+ */
+
+.main {
+  width: 390px;
+  margin: 0 auto;
+
+  .content {
+    padding: 16px 32px;
+    text-align: center;
+  }
+
+  .click-img {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 8px;
+    transition: filter 1s ease;
+  }
+
+  .grayscale-active {
+    filter: grayscale(0%);
+  }
+
+  .img {
+    width: 70%;
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+}

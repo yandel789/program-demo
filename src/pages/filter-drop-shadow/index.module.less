@@ -1,0 +1,46 @@
+/*
+ * Style in CSS Modules.
+ */
+.main {
+  margin: 0 auto;
+  width: 390px;
+}
+
+.content {
+  padding: 16px;
+  margin: 16px 32px 0 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 1);
+  p{
+    margin: 0;
+    color: black;
+  }
+  img {
+    width: auto;
+    height: 150px;
+  }
+  .drop{
+    transition: all 0.5s ease;
+  }
+  .box{
+    transition: all 0.5s ease;
+  }
+
+  .box:hover {
+    box-shadow: 4px 8px #7611a6;
+  }
+
+  .drop:hover {
+    filter: drop-shadow(12px 8px 4px #7611a6);
+  }
+
+}
+
+.img {
+  width: 70%;
+  margin-top: 16px;
+  border-radius: 8px;
+}
